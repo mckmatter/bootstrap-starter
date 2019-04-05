@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-starter",
+  "version": "1.0.0",
+  "description": "A starter express app serving bootstrap template",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mckmatter/bootstrap-starter.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "express"
+  ],
+  "author": "Dylan McKenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mckmatter/bootstrap-starter/issues"
+  },
+  "homepage": "https://github.com/mckmatter/bootstrap-starter#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
