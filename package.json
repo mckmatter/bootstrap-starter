@@ -1,14 +1,14 @@
 {
-  "name": "bootstrap-starter",
+  "name": "teracast-2-server",
   "version": "1.0.0",
-  "description": "A starter express app serving bootstrap template",
+  "description": "The server portion of the teracast display control system",
   "main": "app.js",
   "scripts": {
     "test": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mckmatter/bootstrap-starter.git"
+    "url": "git+https://github.com/mckmatter/teracast-2.git"
   },
   "keywords": [
     "bootstrap",
@@ -17,10 +17,20 @@
   "author": "Dylan McKenna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mckmatter/bootstrap-starter/issues"
+    "url": "https://github.com/mckmatter/teracast-2/issues"
   },
-  "homepage": "https://github.com/mckmatter/bootstrap-starter#readme",
+  "homepage": "https://github.com/mckmatter/teracast-2#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "bcrypt": "^3.0.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-winston": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "mustache-express": "^1.2.8",
+    "socket.io": "^2.2.0",
+    "sqlite3": "^4.0.6",
+    "winston": "^3.2.1"
   }
 }
